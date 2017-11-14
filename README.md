@@ -55,15 +55,13 @@ Computer Player Notes:
 			ex/ Hard 17 Hand: 10  7
 	- If the hand's total is a hard 17 or is > 18, computer will stand
 
-Future Changes: 
-	
-Game: 
+Future Changes Game: 
 
 	- Split rules
 		- To be honest, I don't really know what this means
 	- Betting option 
 	
-Code: 
+Future Changes Code: 
 
 	- Implement a Hand class 
 		- Better organize code (showField), handContents(), getTotal(), maxHand)
