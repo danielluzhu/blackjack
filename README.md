@@ -1,19 +1,21 @@
 # blackjack
 
-readme.txt
-
 Name: blackjack.cpp
 
 To Compile (on Mac OSX):
+
 	g++ -std=c++11 -stdlib=libc++ blackjack.cpp -o blackjack
 
 Files:
+
 	- blackjack.cpp
 
 Description: 
+
 	1 User can play blackjack with 1 computer player. Further requirements are listed below. 
 
 Instructions: 
+	
 	Please implement a command-line blackjack game using C, C++, or Objective-C:
 
 	Requirements
@@ -29,6 +31,7 @@ Instructions:
 	If any third party code is used, please give credit and cite source.
 
 Game Rules: 
+
 	- Players start with 2 card each.
 	- The first card dealt to every player is visible to the field.
 	- Players can either "Hit" or "Stand"
@@ -45,6 +48,7 @@ Game Rules:
 	- Every round starts with new cards. 
 
 Computer Player Notes:
+
 	- If the hand's total is < 17, computer will hit
 		- Soft 17: when the hand totals to 17 when an "Ace" card is used to equal "11"
 			ex/ Soft 17 Hand: Ace 6
@@ -52,12 +56,14 @@ Computer Player Notes:
 	- If the hand's total is a hard 17 or is > 18, computer will stand
 
 Future Changes: 
-	Game: 
+	
+Game: 
+
 	- Split rules
 		- To be honest, I don't really know what this means
 	- Betting option 
-
-
+	
+Code: 
 
 	- Implement a Hand class 
 		- Better organize code (showField), handContents(), getTotal(), maxHand)
